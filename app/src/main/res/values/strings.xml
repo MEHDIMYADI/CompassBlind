@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Compass Blind</string>
+    <string name="E">EAST</string>
+    <string name="N">NORTH</string>
+    <string name="NE">NORTH EAST</string>
+    <string name="NW">NORTH WEST</string>
+    <string name="S">SOUTH</string>
+    <string name="SE">SOUTH EAST</string>
+    <string name="SW">SOUTH WEST</string>
+    <string name="W">WEST</string>
+    <string name="un_support_lang">Unsupported Language</string>
+    <string name="error_speech">ERROR: Can not Speech Text</string>
+</resources>
