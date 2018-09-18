@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ff3f3f3f"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:textSize="80sp"
+        android:textColor="#ffffffff"
+        android:id="@+id/direction_button"
+        android:background="#ff040404"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onClick" />
+
+</LinearLayout>

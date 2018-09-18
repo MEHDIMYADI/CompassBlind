@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="40sp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:id="@+id/mTextCompass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/mButtonVibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="@string/start"
+        android:layout_toLeftOf="@id/textView"
+        android:layout_below="@id/textView"
+        android:layout_alignParentLeft="true"
+        android:onClick="mToggleVibrate"
+        android:contentDescription="@string/compass_two_start_vibrate"
+        android:layout_toStartOf="@id/textView"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/mButtonSound"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="@string/start"
+        android:layout_toRightOf="@id/textView"
+        android:layout_alignTop="@id/mButtonVibrate"
+        android:layout_alignParentRight="true"
+        android:onClick="mToggleSound"
+        android:contentDescription="@string/compass_two_start_sound"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/textView" />
+
+    <TextView
+        android:textSize="35sp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vibration"
+        android:layout_above="@id/mButtonVibrate"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/vibration"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:textSize="35sp"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sound"
+        android:layout_alignTop="@id/textView2"
+        android:layout_alignRight="@id/mButtonSound"
+        android:contentDescription="@string/sound"
+        android:layout_alignEnd="@id/mButtonSound" />
+
+</RelativeLayout>

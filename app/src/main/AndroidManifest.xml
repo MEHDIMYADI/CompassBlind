@@ -4,6 +4,7 @@
     package="ir.dimyadi.compassblind">
 
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <application
         android:allowBackup="false"
@@ -20,6 +21,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CompassBlindOne" />
+        <activity android:name=".CompassBlindTwo"/>
     </application>
 
 </manifest>

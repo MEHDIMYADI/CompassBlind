@@ -10,4 +10,15 @@
     <string name="W">WEST</string>
     <string name="un_support_lang">Unsupported Language</string>
     <string name="error_speech">ERROR: Can not Speech Text</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="headphones">Plug in headphones</string>
+    <string name="vibration">Vibration</string>
+    <string name="sound">Sound</string>
+    <string name="compass_one">Compass Blind One</string>
+    <string name="compass_blind_one">Start Compass Blind One</string>
+    <string name="compass_two">Compass Blind Two</string>
+    <string name="compass_blind_two">Start Compass Blind Two</string>
+    <string name="compass_two_start_vibrate">Start or stop vibrations</string>
+    <string name="compass_two_start_sound">Start or stop sound</string>
 </resources>

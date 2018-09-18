@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#ff3f3f3f"
-    android:paddingLeft="10dp"
-    android:paddingTop="10dp"
-    android:paddingRight="10dp"
-    android:paddingBottom="10dp"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <Button
-        android:textSize="80sp"
-        android:textColor="#ffffffff"
-        android:id="@+id/direction_button"
-        android:background="#ff040404"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:onClick="onClick" />
+        android:id="@+id/activity_one"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/compass_one"
+        android:contentDescription="@string/compass_blind_one" />
+
+    <Button
+        android:id="@+id/activity_two"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/compass_two"
+        android:contentDescription="@string/compass_blind_two" />
 
 </LinearLayout>
