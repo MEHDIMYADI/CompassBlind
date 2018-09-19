@@ -64,6 +64,9 @@ public class CompassBlindTwo extends AppCompatActivity implements SensorEventLis
         mCompassValue = (float) Math.round(event.values[0]);
         float degree = ((((float) Math.round(event.values[0])) - mCalibrate) + 360.0f) % 360.0f;
         ((TextView) findViewById(R.id.mTextCompass)).setText(String.format("%.1f", degree));
+        if (degree < 0.5f) {
+            ((TextView) findViewById(R.id.mTextCompass)).setText(R.string.N);
+        }
         if (degree > 180.0f) {
             vib = 360.0f - degree;
         } else {

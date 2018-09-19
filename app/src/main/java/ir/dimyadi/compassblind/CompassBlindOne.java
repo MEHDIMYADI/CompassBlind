@@ -167,4 +167,11 @@ public class CompassBlindOne extends AppCompatActivity implements SensorEventLis
         assert v != null;
         v.cancel();
     }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        mSensorManager.unregisterListener(this);
+        vibratorStop();
+    }
 }
